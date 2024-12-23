@@ -1,0 +1,57 @@
+:root {
+  --dark-A: rgb(40, 40, 40);
+  --background-blue: rgb(0, 0, 170);
+  background: var(--background-blue);
+  /* background: var(--dark-A); */
+
+  --text-A: rgb(255, 255, 255);
+
+  color: var(--text-A);
+
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "VT323", monospace;
+  /* font-family: "Courier Prime", monospace; */
+  /* font-family: "DM Mono", monospace; */
+  font-family: "Fira Mono", monospace;
+
+  font-size: 2vh;
+  /* transform: scale(1.2, 1); */
+  letter-spacing: 2px;
+}
+
+body {
+  margin: 0;
+  height: 100vh; /* Ensure body fills the entire viewport */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.window {
+  border: 2px solid var(--text-A); /* Green border */
+  width: 75vw; /* Full viewport width */
+  height: 90vh; /* Full viewport height */
+  box-shadow: 4px 4px 0 var(--text-A); /* Retro shading */
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0000aa; /* Dark blue background */
+  padding: 5px 10px;
+  font-weight: bold;
+  border-bottom: 2px solid var(--text-A); /* Border to separate title bar */
+  /* transform: scale(1.2, 1); Stretches text horizontally */
+  transform-origin: left; /* Ensure scaling doesn't offset the text */
+}
+
+.title-left {
+  text-align: left;
+}
+
+.title-right {
+  text-align: right;
+}
