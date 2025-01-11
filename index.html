@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>crime committer IIIII</title>
+    <title>CRIME COMMITTER V</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
@@ -13,18 +13,35 @@
     <!-- import a lot of fonts lol -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=DM+Mono:wght@500&family=Fira+Mono:wght@500&family=IBM+Plex+Mono:wght@500&family=Roboto+Mono:wght@500&family=Source+Code+Pro:wght@500&family=VT323&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500;700&display=swap" rel="stylesheet" />
   </head>
   <body>
+    <div id="bodyFilterDiv" class="filterDiv"></div>
+
     <div class="window">
       <div class="title-bar">
-        <div class="title-left">crime committer IIIII</div>
+        <div class="title-left">CRIME COMMITTER V</div>
         <div class="title-right" id="date-time"></div>
       </div>
+      <div id="tree-view">
+        <div class="node">
+          <span class="toggle">+</span> Crimes Group 1
+          <div class="children">
+            <div class="node"><span class="leaf">-</span> Petty Theft</div>
+            <div class="node"><span class="leaf">-</span> Jaywalking</div>
+          </div>
+        </div>
+        <div class="node">
+          <span class="toggle">+</span> Crimes Group 2
+          <div class="children">
+            <div class="node"><span class="leaf">-</span> Burglary</div>
+            <div class="node"><span class="leaf">-</span> Fraud</div>
+          </div>
+        </div>
+        <div class="node locked">Locked Crimes</div>
+      </div>
     </div>
+
     <script src="main.js"></script>
   </body>
 </html>
