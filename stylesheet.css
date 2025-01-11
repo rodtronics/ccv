@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "VGA_Font";
+  /* src: url("crimecommitter.com/assets/PxPlus_IBM_VGA_9x8.ttf"); */
+  src: url("assets/PxPlus_IBM_VGA_9x8.ttf");
+}
+
 :root {
   --dark-A: rgb(40, 40, 40);
   --background-blue: rgb(0, 0, 170);
@@ -15,25 +21,21 @@
   /* font-family: "Courier Prime", monospace; */
   /* font-family: "DM Mono", monospace; */
   font-family: "Fira Mono", monospace;
+  font-family: "VGA_Font", monospace;
   font-weight: 500;
 
   /* use font weight of 700 for bold*/
 
   font-size: 2vh;
   /* transform: scale(1.2, 1); */
-  letter-spacing: 2px;
+  letter-spacing: -2px;
   /* font-family: monospace; */
   /* text-shadow: 0 0 5px var(--background-blue), 0 0 10px var(--background-blue); */
 }
 
-@font-face {
-  font-family: "VGA_Font";
-  src: url();
-}
-
 body {
   margin: 0;
-  height: 100vh; /* Ensure body fills the entire viewport */
+  height: 90vh; /* Ensure body fills the entire viewport */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
