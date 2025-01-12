@@ -28,7 +28,7 @@
 
   font-size: 2vh;
   /* transform: scale(1.2, 1); */
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   /* font-family: monospace; */
   /* text-shadow: 0 0 5px var(--background-blue), 0 0 10px var(--background-blue); */
 }
