@@ -1,7 +1,7 @@
 @font-face {
   font-family: "VGA_Font";
-  /* src: url("crimecommitter.com/assets/PxPlus_IBM_VGA_9x8.ttf"); */
-  src: url("assets/PxPlus_IBM_VGA_9x8.ttf");
+  src: url("crimecommitter.com/assets/PxPlus_IBM_VGA_9x16.ttf");
+  src: url("assets/PxPlus_IBM_VGA_9x16.ttf");
 }
 
 :root {
@@ -28,7 +28,7 @@
 
   font-size: 2vh;
   /* transform: scale(1.2, 1); */
-  letter-spacing: -2px;
+  letter-spacing: 1px;
   /* font-family: monospace; */
   /* text-shadow: 0 0 5px var(--background-blue), 0 0 10px var(--background-blue); */
 }
@@ -44,12 +44,12 @@ body {
 }
 
 .filterDiv {
-  backdrop-filter: blur(2px) saturate(200%);
+  backdrop-filter: blur(2px) saturate(100%);
   /* backdrop-filter: blur(2px); */
 
   mix-blend-mode: screen;
   mix-blend-mode: difference;
-  opacity: 0.4;
+  opacity: 0.1;
   z-index: 10;
   pointer-events: none;
   filter: contrast(1.2) brightness(1.1) saturate(1.5) blur(0.5px);
